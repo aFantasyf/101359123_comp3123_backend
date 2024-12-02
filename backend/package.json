@@ -1,0 +1,29 @@
+{
+  "name": "101359123_comp3123_assignment2",
+  "version": "1.0.0",
+  "description": "Assignment 2 Application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js localhost 8084"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aFantasyf/101359123_COMP3123-Assignment2.git"
+  },
+  "author": "Aayan Farooqui",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aFantasyf/101359123_COMP3123-Assignment2/issues"
+  },
+  "homepage": "https://github.com/aFantasyf/101359123_COMP3123-Assignment2#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.1",
+    "express-validation": "^4.1.1",
+    "express-validator": "^7.2.0",
+    "mongodb": "^6.11.0",
+    "mongoose": "^8.8.2",
+    "nodemon": "^3.1.7"
+  }
+}
